@@ -115,7 +115,7 @@ $ sic4onnx \
 ```python
 from sic4onnx import irchange
 
-changed_graph = change(
+ir_changed_graph = irchange(
     onnx_graph=graph,
     ir_version=8,
     non_verbose=True,
