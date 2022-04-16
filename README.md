@@ -1,7 +1,6 @@
 # sic4onnx
 A very simple tool that forces a change in the IR Version of an ONNX graph. **S**imple **I**R version **C**hanger for **ONNX**.
 
-
 https://github.com/PINTO0309/simple-onnx-processing-tools
 
 [![Downloads](https://static.pepy.tech/personalized-badge/sic4onnx?period=total&units=none&left_color=grey&right_color=brightgreen&left_text=Downloads)](https://pepy.tech/project/sic4onnx) ![GitHub](https://img.shields.io/github/license/PINTO0309/sic4onnx?color=2BAF2B) [![PyPI](https://img.shields.io/pypi/v/sic4onnx?color=2BAF2B)](https://pypi.org/project/sic4onnx/) [![CodeQL](https://github.com/PINTO0309/sic4onnx/workflows/CodeQL/badge.svg)](https://github.com/PINTO0309/sic4onnx/actions?query=workflow%3ACodeQL)
@@ -53,6 +52,7 @@ optional arguments:
 
   --ir_version OPSET
         IR version number to be changed. e.g. --ir_version 8
+        https://github.com/onnx/onnx/blob/main/onnx/version_converter.py#L12-L160
 
   --non_verbose
         Do not show all information logs. Only error logs are displayed.
@@ -78,6 +78,7 @@ change(
     ir_version: int
         IR version number to be changed.
         e.g. --ir_version 8
+        https://github.com/onnx/onnx/blob/main/onnx/version_converter.py#L12-L160
 
     input_onnx_file_path: Optional[str]
         Input onnx file path.

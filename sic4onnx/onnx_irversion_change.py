@@ -47,7 +47,8 @@ def irchange(
     ----------
     ir_version: int
         IR version number to be changed.\n\
-        e.g. --ir_version 8
+        e.g. --ir_version 8\n\
+        https://github.com/onnx/onnx/blob/main/onnx/version_converter.py#L12-L160
 
     input_onnx_file_path: Optional[str]
         Input onnx file path.\n\
@@ -134,7 +135,8 @@ def main():
         required=True,
         help=\
             'IR version number to be changed. \n'+
-            'e.g. --ir_version 8'
+            'e.g. --ir_version 8 \n'+
+            'https://github.com/onnx/onnx/blob/main/onnx/version_converter.py#L12-L160'
     )
     parser.add_argument(
         '--non_verbose',
