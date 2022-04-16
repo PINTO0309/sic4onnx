@@ -50,7 +50,7 @@ optional arguments:
   --output_onnx_file_path OUTPUT_ONNX_FILE_PATH
         Output onnx file path.
 
-  --ir_version OPSET
+  --ir_version IR_VERSION
         IR version number to be changed. e.g. --ir_version 8
         https://github.com/onnx/onnx/blob/main/onnx/version_converter.py#L12-L160
 
